@@ -1,0 +1,22 @@
+.banner__imagem{
+    /* Simplificar o background*/
+    /* background: url(/assents/img/banner.jgp)no-repeat center / cover; */
+    background-image: url('/img/banneer.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    width: 100%;
+   
+}
+
+@media screen and (min-width:0) {
+    .banner__imagem{
+        height: calc(100vh - 51px);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .banner__imagem{
+    height: calc(100vh - 72px) 
+    }
+}
